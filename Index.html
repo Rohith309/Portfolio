@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohith Reddy's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif; 
+            background-color: #f0f8ff; 
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; 
+        }
+
+        header {
+            background: linear-gradient(135deg, #007bff, #00aaff); 
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+            position: relative;
+            animation: fadeIn 1.2s; 
+        }
+
+        header h1 {
+            font-size: 3.5em; 
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 2px; 
+        }
+
+        header h3 {
+            font-size: 2em; 
+            margin: 10px 0;
+        }
+
+        header p {
+            font-size: 1.2em; 
+            margin: 10px 0;
+            font-weight: 400; 
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+            animation: fadeIn 1s; 
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #007bff; 
+            font-weight: bold;
+            transition: color 0.3s;
+            font-size: 1.2em; 
+        }
+
+        nav ul li a:hover {
+            color: #0056b3; 
+        }
+
+        section {
+            padding: 60px 20px;
+            transition: transform 0.5s, opacity 0.5s; 
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideIn 0.5s forwards;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #007bff; 
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+        }
+
+        section p {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #007bff; 
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            animation: fadeIn 1s; 
+        }
+
+        footer .social-icons {
+            margin: 10px 0;
+        }
+
+        footer .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 1.5em; 
+            transition: color 0.3s;
+        }
+
+        footer .social-icons a:hover {
+            color: #0056b3; 
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ROHITH REDDY</h1>
+        <h3>Python Full Stack Developer</h3>
+        <p>ggrohith210@gmail.com | +91 8008318764</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#objective">Objective</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certification">Certification</a></li>
+        </ul>
+    </nav>
+
+    <section id="objective">
+        <h2>Objective</h2>
+        <p>Motivated recent graduate with a solid foundation in Python and full stack development, seeking to contribute to a dynamic team. Eager to learn and apply new technologies to create innovative web solutions.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <p><strong>Salesforce Developer</strong><br>Salesforce, 2022</p>
+        <p>A leading cloud-based CRM platform that provides solutions for sales, customer service, marketing automation, analytics, and application development.</p>
+        <ul>
+            <li>Developed and customized Salesforce applications using Apex, Visualforce, and Lightning components.</li>
+            <li>Automated business processes and integrated third-party services to enhance system functionality.</li>
+            <li>Analyzed sales data to provide insights that inform sales strategy and optimize performance.</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p><strong>CRAVINGS-KILLER | Food-ordering-website</strong><br>08/2024 - 09/2024<br>
+            <a href="https://github.com/Rohith309/Cravings-killer" target="_blank">GitHub Repository</a></p>
+        <p>Cravings Killer is an intuitive food-ordering website that streamlines meal selection and purchasing for a seamless user experience:</p>
+        <ul>
+            <li>User-Friendly Interface: Ensures a smooth and enjoyable ordering experience.</li>
+            <li>Efficient Rendering: Built with React components for fast and responsive performance.</li>
+            <li>Dynamic Features: Includes real-time updates and engaging visuals, enhancing customer interaction and satisfaction.</li>
+            <li>Cart Functionality: Enabled users to add or remove items and view total costs, featuring conditional rendering of the "Buy Now" button.</li>
+            <li>Interactive Menu Page: Organized food items by category, showcasing professional styling and smooth animations.</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Bachelor of Engineering in Artificial Intelligence</strong><br>Gates Institute of Technology, 01/2020 - 05/2024<br>Gooty, AP | GPA: 7.5/10</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p><strong>Back-End:</strong> Python, Django, SQLite</p>
+        <p><strong>Front-End:</strong> HTML5, CSS3, React JS, JavaScript, Bootstrap</p>
+        <p><strong>Tools:</strong> AWS, Docker, Git, GitHub</p>
+    </section>
+
+    <section id="certification">
+        <h2>Certification</h2>
+        <p><strong>Salesforce Developer Certificate:</strong> Certified in Salesforce development, specializing in Apex and Lightning for custom applications and process automation.</p>
+        <p><strong>AWS AI/ML Certificate:</strong> Certified in AI and machine learning through AICTE, focusing on deploying models and implementing AI solutions using AWS tools.</p>
+    </section>
+
+    <footer>
+        <p>Connect with me:</p>
+        <div class="social-icons">
+            <a href="https://github.com/Rohith309" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rohith-reddy4" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
